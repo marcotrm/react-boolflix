@@ -1,0 +1,23 @@
+// src/styles.scss
+
+$primary-color: #e50914;
+$background-color: #141414;
+$text-color: #fff;
+
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: $background-color;
+
+  .logo {
+    color: $primary-color;
+    font-size: 24px;
+    text-decoration: none;
+  }
+}
